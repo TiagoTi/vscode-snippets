@@ -1,0 +1,27 @@
+{
+    "Print to console": {
+        "prefix": "fog",
+        "body": [
+            "console.log('$1');",
+            "$2"
+        ],
+        "description": "Log output to console"
+    },"ForMe": {
+        "prefix": "mefor",
+        "body": [
+            "for (${1:type} $2:variable in $3:collection){",
+            "$4:command",
+            "}"
+        ],
+        "description": "Log output to console"
+    },"ForMe2": {
+        "prefix": "mefor2",
+        "body": [
+            "for (${1:type} ${1} in ${2:collection}){",
+            "${3:command}",
+            "${4|one,two,three|}",
+            "}$0"
+        ],
+        "description": "Log output to console"
+    }
+}

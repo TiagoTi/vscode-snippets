@@ -1,0 +1,44 @@
+{
+	"Espacos em branco": {
+		"prefix": "para",
+		"body": [
+			"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+		],
+		"description": "8 add non blank space"
+	},
+	"Inicia o Milagre da manha":{
+		"prefix": "mdm",
+		"description": "cria o template básico para que eu crie o Milagre da manhã",
+		"body": [
+			"# O Milagre da Manhã\n",
+			"## $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE O Milagre da Manhã\n",
+			"---\n\n`$CURRENT_DAY_NAME, $CURRENT_MONTH_NAME $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND`\n\n---\n",
+			"inicio_ - Meditação  ",
+			"fim_\n",
+			"inicio_ - Afirmação  ",
+			"fim_\n",
+			"inicio_ - Visualização  ",
+			"fim_\n",
+			"inicio_ - Escrita  ",
+			"fim_\n",
+			"inicio_ - Leitura  ",
+			"fim_\n",
+			"inicio_ - Exercicio  ",
+			"fim_\n",
+			"---\n",
+			"### Escrita\n",
+			"---\n",
+			"Sou grato por ...\n",
+			"Sou grato por ...\n",
+			"Sou grato por ...\n",
+			"---\n",
+			"O que faria hoje ser um ótimo dia ...\n",
+			"---\n",
+			"Hoje eu me comprometo há ...\n",
+			"---\n",
+			"### Leitura\n",
+			"#### Titulo : xxx\n",
+			"---\n"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"Print to console": {
+		"prefix": "plano",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"Linux alias": {
+		"prefix": "alias",
+		"description": "Ajuda a criar alias simples `inspirado pelo projeto lili`",
+		"body": [
+			"alias ${1:alias}='${2:command}'"
+		]
+	}
+}

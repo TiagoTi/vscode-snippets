@@ -1,0 +1,11 @@
+{
+	"Base Commit": {
+		"prefix": "cmmb",
+		"body": [
+			"${1|fix,feat,chore,doc,style,refactor,perf,test|}${2:(scope)}: ${3:description}",
+            "$4",
+            "Card ref #${5:ref}. :beers:",
+		],
+		"description": "A basic commit template"
+	}
+}
