@@ -1,0 +1,10 @@
+{
+	"Create entry": {
+		"prefix": "new",
+		"body": [
+			"${1:task description}:${2:dependencies}",
+			"\t$0"
+		],
+		"description": "Log output to console"
+	}
+}
